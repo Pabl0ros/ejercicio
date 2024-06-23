@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> HTML </title>
+    <link rel="shorcut icon" href="favicon.png">
+    <meta charset="utf-8">
+    <meta name="description" content="Acerca de HTML5">
+    <link rel="stylesheet" type="text/css" href="css\estilo.css" >
+  </head>
+  <body>
+
+    <div id="header">
+      <h1> Formulario </h1>
+    </div>
+
+    <div id="nav">
+      <ol>
+      <li><a href="Index.html"> Pagina de inicio </a></li><br>
+      <li><a href="Paraq.html"> ¿Para qué sirve html? </a></li><br>
+      <li><a href="Comof.html"> ¿Cómo funciona HTML? </a></li><br>
+      <li><a href="Form.html"> Registro </a></li><br>
+      <li><a href="Examen.html"> Examen </a></li><br>
+      </ol>
+    </div>
+    <!--
+    <div id="section">  
+      <h2> Complete el Formulario </h2> 
+      <form action="/php/insertar_subasta.php" method="post" enctype="multipart/form-data">
+      
+    </div> 
+    -->
+<fieldset>
+  <legend>Datos básicos</legend>
+
+  <label for="nombre">Nombre</label> <br>
+  <input type="text" name="nombre" id="nombre" size="50" maxlength="250" placeholder="Digite su Nombre y Apellido" /> <br>
+
+<label for="nombre">Correo electrónico</label> <br>
+  <input type="email" name="email" id="email" size="50" maxlength="150" placeholder="Digite su correo electrónico" />
+  <br><br>
+
+  <label for="ciudad">Seleccione la ciudad</label>
+      <select>
+          <option>Campana</option>
+          <option>Capilla del Señor</option>
+          <option>Escobar</option>
+          <option>Lima</option>
+          <option>San Pedro</option>
+          <option>Zárate</option>
+      </select> <br>
+      <label for="ciudad">Seleccione el género</label> <br>
+          <input type="radio" name="genero">Femenino <br>
+          <input type="radio" name="genero">Masculino <br>
+          <input type="radio" name="genero">Otro <br>
+      <label for="ciudad">Seleccione nivel estudios</label> <br>
+          <input type="checkbox" name="secun">Secundario <br>
+          <input type="checkbox" name="Terci">Terciario <br>
+          <input type="checkbox" name="univer">Universitario <br>
+
+  <label for="descripcion">Descripción</label> <br>
+  <textarea name="descripcion" id="descripcion" cols="90" rows="3"></textarea> <br>
+          <input type="submit" value="Enviar">
+          <input type="reset" value="Cancelar">
+  <br><br>
+
+  Foto <input type="file" name="foto" /> 
+  <br>
+
+</fieldset>
+ 
+<fieldset>
+  <legend>Datos económicos</legend>
+  <label for="cursos">Seleccione Curso/s que desea realizar</label> <br>
+          <input type="checkbox" name="Html">HTML5.......$ 26.000,00<br>
+          <input type="checkbox" name="css">CSS3...........$ 25.500,00<br>
+          <input type="checkbox" name="js">JavaScript...$ 26.500.00 <br>
+
+  <label for="precio">Precio</label>
+  <input type="text" size="5" id="precio" name="precio" /><!-- &dollar;-->
+
+  <label for="impuestos">Impuestos</label>
+  <select id="impuestos" name="impuestos">
+    <option value="4">4%</option>
+    <option value="7">7%</option>
+    <option value="16">16%</option>
+    <option value="25">25%</option>
+  </select>
+  <br>
+
+  <label>Promoción</label> <br/>
+  <input type="radio" name="promocion" value="ninguno" checked="checked" /> Ninguno <br>
+  <input type="radio" name="promocion" value="documentos" /> Documentos gratuitos <br>
+  <input type="radio" name="promocion" value="descuento" /> Descuento 5%
+</fieldset> <!--
+</form>
+-->
+
+
+<div id="footer">
+      Labotario de Aplicaciones - 6° 1° GA
+    </div>
+
+  </body>
+</html>

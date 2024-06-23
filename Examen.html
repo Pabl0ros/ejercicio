@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> HTML </title>
+    <link rel="shorcut icon" type="image/png" href="favicon.png">
+    <meta charset="utf-8">
+    <meta name="description" content="Acerca de HTML5">
+    <link rel="stylesheet" type="text/css" href="css\estilo.css" >
+  </head>
+  <body>
+
+    <div id="header">
+      <h1>Examen</h1>
+    </div>
+    
+    <div id="nav">
+      <ol>
+      <li><a href="Index.html"> Pagina de inicio </a></li><br>
+      <li><a href="Paraq.html"> ¿Para qué sirve html? </a></li><br>
+      <li><a href="Comof.html"> ¿Cómo funciona HTML? </a></li><br>
+      <li><a href="Form.html"> Registro </a></li><br>
+      <li><a href="Examen.html"> Examen </a></li><br>
+      </ol>
+    </div>
+
+    <div id="section">
+      <!--
+      <img src="img/examen_2.png" alt="Descripcion de la imagen" width="180" height="110" />
+      -->
+    </div>
+    <fieldset>
+      <legend><b>Ingrese sus datos</b></legend>
+    
+      <label for="nombre">Nombre</label> <br/>
+      <input type="text" name="nombre" id="nombre" size="50" maxlength="250" placeholder="Digite su Nombre y Apellido" /> <br/>
+    </fieldset> <br/>
+  <fieldset>
+    <legend><b>Realiza el siguiente Examen y responde de acuerdo a lo aprendido</b></legend>
+      
+    <label for="html"><b>1.-</b> ¿Qué es html?</label>
+          <select>
+              <option>El html es un código reservado para conectarse con varios usuarios a la vez</option>
+              <option>Es la forma en que las páginas web se relaciona con todos los paises del mundo</option>
+              <option>Es el lenguaje con el que se crean las páginas web. Se trata de un conjunto de códigos</option>
+          </select> 
+          <br/><br/>
+          <label for="www"><b>2.-</b> ¿Qué es el www?</label>
+          <br/>
+              <input type="radio" name="genero">Es un sistema de distribución de información basado en hipertexto<br>
+              <input type="radio" name="genero">Lenguaje por el cual se escriben las páginas informáticas<br>
+              <input type="radio" name="genero">Protocolo diseñado para programadores de páginas textuales
+          <br/><br/>
+          <label for="etiquetas"><b>3.-</b> Seleccione etiquetas correctas</label> <br>
+              <input type="checkbox" name="eti1"> li - h1 - table<br>
+              <input type="checkbox" name="eti2"> id - href - width<br>
+              <input type="checkbox" name="eti3"> IP - TCP/IP - HTTP<br/>
+          <br/>
+      <label for="descripcion"><b>4.-</b>¿Para que se utilizan los atributos height y width?</label> <br/>
+      <textarea name="descripcion" id="descripcion" cols="88" rows="3"></textarea> <br>
+      <br/>
+      <label for="descripcion"><b>5.-</b>¿Qué es css?</label> <br/>
+      <textarea name="descripcion" id="descripcion" cols="88" rows="3"></textarea> <br>
+          
+      </fieldset>
+    
+
+    <div id="footer">
+      Labotario de Aplicaciones - 6° 1° GA
+    </div>
+
+  </body>
+</html>
